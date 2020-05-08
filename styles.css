@@ -1,0 +1,176 @@
+/*-----------------------------Tag Selectors -------------------------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+}
+
+p {
+  color: #40514E;
+}
+
+h1 {
+  color: #424874;
+  font-size: 5.625rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  line-height: 2;
+  color: #5e63b6;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 50px auto;
+  border-style: none;
+  border-width: 10px;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  width: 5%;
+}
+
+a {
+  color: #11999E;
+}
+
+h3 {
+  color: #a6b1e1;
+  font-family: 'Noto Serif', serif;
+}
+
+/*-----------------------------class Selectors -------------------------*/
+.para1{
+  width: 50%;
+  margin: auto;
+}
+.doggo {
+  width: 20%;
+}
+
+.hello-intro {
+  font-size: 35px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #EAF6F6;
+  padding-top: 15px;
+  margin: auto auto 0 auto;
+}
+
+.bottom-container {
+  background-color: #a6b1e1;
+  color: #11999E;
+  padding: 85px 100px 100px 100px;
+  height: 5px;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.a-developer {
+  font-weight: normal;
+}
+
+.gaming {
+  margin-left: 30px;
+  float: right;
+  width: 25%;
+}
+
+.coding {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+}
+
+.top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  width: 15%;
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+.footer-link {
+  font-size: 25px;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.photo-manipulation {
+  width: 3%;
+}
+
+.Top-Container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #f4eeff;
+}
+
+
+
+.btn {
+  background: #7072D1;
+  background-image: -webkit-linear-gradient(top, #7072D1, #4F5DB2);
+  background-image: -moz-linear-gradient(top, #7072D1, #4F5DB2);
+  background-image: -ms-linear-gradient(top, #7072D1, #4F5DB2);
+  background-image: -o-linear-gradient(top, #7072D1, #4F5DB2);
+  background-image: linear-gradient(to bottom, #7072D1, #4F5DB2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 14px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px auto 35px auto;
+  font-family: 'Noto Serif', serif;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #9A9BE8;
+  background-image: -webkit-linear-gradient(top, #9A9BE8, #8E7AD8);
+  background-image: -moz-linear-gradient(top, #9A9BE8, #8E7AD8);
+  background-image: -ms-linear-gradient(top, #9A9BE8, #8E7AD8);
+  background-image: -o-linear-gradient(top, #9A9BE8, #8E7AD8);
+  background-image: linear-gradient(to bottom, #9A9BE8, #8E7AD8);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/*-----------------------------id Selectors -------------------------*/
+#My-Picture {
+  margin: 30px auto 35px auto;
+  margin-top: 75px;
+  width: 15%;
+  border-radius: 100%;
+}
